@@ -6,14 +6,17 @@ Benni forrita verkefni 8 í JavaScript virkni.
 Ég þurfti að fikta soldið í package.json og taka /build úr .gitignore til þess að síðan fúnkeraði á Netlify.
 
 Verkefnið er sett upp hérna á Github og á Netlify og þar er svo sannarlega 'build' scripta notuð.
-Það er hægt að bæta við vörum í körfu og hægt að eyða þeim líka. 
-Fannst smá óljóst með virknina í körfunni. Hvort það ætti t.d. að koma önnur HTML húfa undir hinni HTML húfunni ef maður bætir við annari
-en fannst fallegra ef fjöldinn hækkaði frekar bara um 1. 
 
-Heiti        Fjöldi        ...
-HTML húfa    3
-CSS sokkar   7
-HTML húfa    1
+Það er hægt að bæta við vörum í körfu og hægt að eyða þeim líka. 
+
+Fannst smá óljóst með virknina í körfunni. Hvort það ætti t.d. að koma önnur HTML húfa undir hinni HTML húfunni ef maður bætir við annari en fannst fallegra ef fjöldinn hækkaði frekar bara um 1. 
+
+| Heiti         | Fjöldi        | Verð          | Samtals       |
+| ------------- | ------------- | ------------- | ------------- |
+| HTML húfa     |       4       | 5.000 kr.     |   20.000 kr.  |
+| CSS sokkar    |       2       | 3.000 kr.     |    6.000 kr.  |
+| HTML húfa     |       1       | 5.000 kr.     |    5.000 kr.  |
+| CSS sokkar    |       2       | 3.000 kr.     |    6.000 kr.  |
 
 ^ Þetta er bara ljótt.
 
