@@ -69,7 +69,6 @@ export function createCartLine(product, quantity) {
  */
 
 export function showCartContent(show) {
-  const cartTable = document.querySelector('.cart .table');
   const cartContent = document.querySelector('.cart-content');
   const emptyMessage = document.querySelector('.empty-message');
   const cartSummary = document.querySelector('.cart tfoot'); 
@@ -77,14 +76,12 @@ export function showCartContent(show) {
   const deleteButtons = document.querySelectorAll('.cart tbody form.remove');
 
   if (show) {
-    cartTable.classList.remove('hidden');
     cartContent.classList.remove('hidden');
     emptyMessage.classList.add('hidden');
     cartSummary.classList.remove('hidden'); 
     purchaseForm.classList.remove('hidden');
     deleteButtons.forEach(button => button.classList.remove('hidden')); 
   } else {
-    cartTable.classList.add('hidden');
     cartContent.classList.add('hidden');
     emptyMessage.classList.remove('hidden');
     cartSummary.classList.add('hidden');
